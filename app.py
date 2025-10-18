@@ -8,7 +8,7 @@ sl.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Map_of_the_w
 #sezione animali
 sl.subheader("Animali del mondo")
 #creiamo un bottone
-if sl.button("Animali dell'Africa")
+if sl.button("Animali dell'Africa"):
     #Questo codice viene eseguito solo quando clicco il bottone
     sl.image("https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/500px-African_Bush_Elephant.jpg")
     sl.write("Elefante africano")
