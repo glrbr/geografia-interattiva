@@ -12,11 +12,11 @@ sl.subheader("zone climatiche del mondo")
 sl.subheader("zona polare-subpolare")
 
 # Bottone 1:fascia subpolare
-sl.info("Zona Polare")
-if sl.button("clima"):
+if sl.button("Zona Subpolare"):
+    sl.info("Clima")
     sl.write("inverni lunghi e freddi ")
     sl.write("estati brevi e fresche")
-if sl.button("Bioma"):
+    sl.info("Bioma")
     sl.title("Taiga")
     sl.image("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Fall_on_the_Yukon_Flats_NWR.jpg/500px-Fall_on_the_Yukon_Flats_NWR.jpg")
     sl.write("Flora: foreste di conifere")
@@ -25,3 +25,13 @@ if sl.button("Bioma"):
     sl.image("https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Icebreaker_in_greenland_2.JPG/500px-Icebreaker_in_greenland_2.JPG")
     sl.write("flora:muschi e licheni")
     sl.write("fauna:renne,alci,gufi,volpi,orsi")
+
+# Bottone 2:fascia subpolare
+if sl.button("Zona Polare"):
+    sl.info("Clima")
+    sl.write("temperature piu' basse della terra")
+    sl.write("6 mesi di buio 6 mesi di luce")
+    sl.info("Bioma")
+    sl.image("https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Mt_Herschel%2C_Antarctica%2C_Jan_2006.jpg/1024px-Mt_Herschel%2C_Antarctica%2C_Jan_2006.jpg")
+    sl.write("Aree deserte")
+    sl.write("fauna:pinguni,foche e albatro reale")
