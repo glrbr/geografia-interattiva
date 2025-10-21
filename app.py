@@ -15,7 +15,7 @@ sl.subheader("zona polare-subpolare")
 sl.info("Zona Polare")
 if sl.button("clima"):
     sl.write("inverni lunghi e freddi ")
-    sl.write("estati brvi e fresche")
+    sl.write("estati brevi e fresche")
 if sl.button("Bioma"):
     sl.title("Taiga")
     sl.image("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Fall_on_the_Yukon_Flats_NWR.jpg/500px-Fall_on_the_Yukon_Flats_NWR.jpg")
